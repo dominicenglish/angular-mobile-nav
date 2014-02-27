@@ -25,6 +25,7 @@ Use the following HTML structure:
 <div id="de-content">
 <!-- page content -->
 </div>
+```
 
 Hide and show the menu by calling `mobileNav.toggle()`, `mobileNav.show()`, or `mobileNav.hide()`.
 ```html
