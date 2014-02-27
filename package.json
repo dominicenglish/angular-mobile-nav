@@ -1,6 +1,6 @@
 {
   "name": "angular-mobile-nav",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "AngularJS module providing a css slideout navigation for mobile apps. Slides in from the right hand-side of the page instead of the usual left",
   "author": {
     "name": "Dominic English"
