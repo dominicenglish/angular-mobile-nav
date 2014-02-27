@@ -34,7 +34,7 @@ module.exports = function(grunt) {
         uglify: {
             default: {
                 files: {
-                    'dist/angular-mobile-nav.min.js': 'src/angular-mobile-nav.js',
+                    'dst/angular-mobile-nav.min.js': 'src/angular-mobile-nav.js',
                     'demo/public/angular-mobile-nav.min.js': 'src/angular-mobile-nav.js'
                 }
             }
