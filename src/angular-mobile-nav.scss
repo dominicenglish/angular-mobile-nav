@@ -1,0 +1,32 @@
+$nav-width: 17em;
+$transition-speed: 500ms;
+
+@mixin translate-x($x) {
+    transform: translateX($x);
+    -webkit-transform: translateX($x);
+    -moz-transform: translateX($x);
+    -ms-transform: translateX($x);
+    -o-transform: translateX($x);
+}
+
+@mixin transition-transform($duration) {
+    transition: transform $duration;
+    -webkit-transition: -webkit-transform $duration;
+    -moz-transition: -moz-transform $duration;
+    -o-transition: -o-transform $duration;
+}
+
+.de-nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-height: 100%;
+    width: $nav-width;
+    z-index: 1000;
+    @include translate-x($nav-width);
+    @include transition-transform($transition-speed);
+}
+
+.de-nav.show {
+    @include translate-x(0);
+}
