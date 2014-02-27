@@ -5,3 +5,7 @@ body {
 .de-nav {
     background-color: #888;
 }
+
+.header a {
+    float: right;
+}
