@@ -1,25 +1,25 @@
 {
-    "name": "angular-mobile-nav",
-    "version": "0.0.1",
-    "description": "AngularJS module providing a css slideout navigation for mobile apps. Slides in from the right hand-side of the page instead of the usual left",
-    "author": {
-        "name": "Dominic English"
-    },
-    "licenses": [
-        {
-            "type": "MIT",
-            "url": "https://github.com/dominicenglish/angular-mobile-nav/blob/master/LICENSE"
-        }
-    ],
-    "devDependencies": {
-        "grunt": "latest",
-        "grunt-contrib-watch": "latest",
-        "grunt-contrib-sass": "latest",
-        "grunt-nodemon": "latest",
-        "grunt-concurrent": "latest",
-        "grunt-contrib-uglify": "latest",
-        "express": "latest",
-        "jade": "latest",
-        "connect-livereload": "latest"
+  "name": "angular-mobile-nav",
+  "version": "0.0.2",
+  "description": "AngularJS module providing a css slideout navigation for mobile apps. Slides in from the right hand-side of the page instead of the usual left",
+  "author": {
+    "name": "Dominic English"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/dominicenglish/angular-mobile-nav/blob/master/LICENSE"
     }
+  ],
+  "devDependencies": {
+    "grunt": "latest",
+    "grunt-contrib-watch": "latest",
+    "grunt-contrib-sass": "latest",
+    "grunt-nodemon": "latest",
+    "grunt-concurrent": "latest",
+    "grunt-contrib-uglify": "latest",
+    "express": "latest",
+    "jade": "latest",
+    "connect-livereload": "latest"
+  }
 }
