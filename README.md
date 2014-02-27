@@ -18,11 +18,11 @@ angular.module('my-app', ['de.angular-mobile-nav']);
 
 Use the following HTML structure:
 ```html
-<div id="de-nav">
+<div class="de-nav">
 <!-- navigation -->
 </div>
 
-<div id="de-content">
+<div class="de-content">
 <!-- page content -->
 </div>
 ```
