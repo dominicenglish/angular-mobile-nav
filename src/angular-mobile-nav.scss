@@ -30,3 +30,12 @@ $transition-speed: 500ms;
 .de-nav.show {
     @include translate-x(0);
 }
+
+.de-content {
+    @include translate-x(0);
+    @include transition-transform($transition-speed);
+}
+
+.de-content.nav-open {
+    @include translate-x(-$nav-width);
+}
