@@ -1,6 +1,0 @@
-{
-"version": 3,
-"mappings": "AAAA,IAAK,CACD,gBAAgB,CAAE,IAAI",
-"sources": ["../src/angular-mobile-nav.scss"],
-"file": "angular-mobile-nav.css"
-}
