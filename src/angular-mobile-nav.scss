@@ -1,12 +1,13 @@
 $nav-width: 17em;
 $transition-speed: 500ms;
+$media-break-tablet: 768px;
 
-@mixin translate-x($x) {
-    transform: translateX($x);
-    -webkit-transform: translateX($x);
-    -moz-transform: translateX($x);
-    -ms-transform: translateX($x);
-    -o-transform: translateX($x);
+@mixin translate-x($x, $is-important:null) {
+    transform: translateX($x) $is-important;
+    -webkit-transform: translateX($x) $is-important;
+    -moz-transform: translateX($x) $is-important;
+    -ms-transform: translateX($x) $is-important;
+    -o-transform: translateX($x) $is-important;
 }
 
 @mixin transition-transform($duration) {
@@ -38,4 +39,14 @@ $transition-speed: 500ms;
 
 .de-content.nav-open {
     @include translate-x(-$nav-width);
+}
+
+// Hide mobile nav if screen size is increased
+@media (min-width: $media-break-tablet) {
+    .de-nav.show {
+        @include translate-x($nav-width, !important);
+    }
+    .de-content.nav-open {
+        @include translate-x(0, !important);
+    }
 }
